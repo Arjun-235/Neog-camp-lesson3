@@ -42,4 +42,27 @@ hr{
 .non-bullets{
     list-style: none;
 }
+.inline-list{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
+/* nav */
+.navbar{
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-left-radius: 2rem;
+    padding: 1rem 1rem;
+}
+.nav-brand{
+    font-weight: bold;
+}
+.navbar .link{
+    color: white;
+}
+.navpills{
+    text-align: right;
+}
+.navbar .link-active{
+    font-weight: bold;
+}
