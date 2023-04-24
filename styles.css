@@ -2,8 +2,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+h2{
+    font-weight: bold;
+}
 :root{
     --primary-color:#4f46e5;
+    --dark-grey:#a1a1aa;
 }
 .para{
     padding: 0rem 1rem;
@@ -65,4 +69,17 @@ hr{
 }
 .navbar .link-active{
     font-weight: bold;
+}
+/* header */
+.hero{
+    padding: 1rem;
+}
+.hero-img{
+    max-width: 390px;
+    display: block;
+    margin: auto;
+}
+.hero-heading{
+    color: var(--primary-color);
+    padding-top: 1rem;
 }
