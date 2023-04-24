@@ -8,6 +8,7 @@ h2{
 :root{
     --primary-color:#4f46e5;
     --dark-grey:#a1a1aa;
+    --off-white: #b6b6be;
 }
 .para{
     padding: 0rem 1rem;
@@ -82,4 +83,14 @@ hr{
 .hero-heading{
     color: var(--primary-color);
     padding-top: 1rem;
+}
+/* section */
+.section{
+    padding: 1.5rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color:var(--off-white);
 }
